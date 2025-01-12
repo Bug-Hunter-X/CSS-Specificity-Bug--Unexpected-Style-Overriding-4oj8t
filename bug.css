@@ -1,0 +1,1 @@
+The CSS specificity rules can lead to unexpected results when styles from multiple selectors conflict.  For instance, a more specific selector might override a seemingly more important one due to the way specificity is calculated (inline styles have the highest specificity). This can be hard to debug, as the conflicting styles might not be immediately obvious.
