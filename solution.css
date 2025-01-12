@@ -1,0 +1,16 @@
+/* solution.css */
+
+/* Increase the specificity of the intended styles to override the conflicting ones.*/
+#myParagraph {
+  color: blue;
+}
+
+/* Use !important as the last resort if specificity adjustments are not sufficient. However, this is generally discouraged for maintainability reasons*/
+.myClass {
+  color: green !important;
+}
+
+/* The more specific selector will win over the less specific ones */
+#myParagraph.myClass{
+  color:red;
+}
